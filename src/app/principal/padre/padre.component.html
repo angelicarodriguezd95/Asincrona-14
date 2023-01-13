@@ -1,0 +1,22 @@
+<form class="form form-group container-sm border-shadow">
+    <h1 >Registro de personas</h1>
+    <section [hidden]="!showMessage" class="transparent-message">{{datosForm | json}}</section>
+    <label>Nombre:</label>
+    <input [(ngModel)]="nombre" name="nombre" class="form-control">
+    <br>
+    <label>DNI:</label>
+    <input [(ngModel)]="dni" name="dni" class="form-control">
+    <br>
+    <label>Estado Civil:</label>
+    <select [(ngModel)]="estadoCivil" name="estadoCivil" class="form-select">
+    <option value="soltero">Soltero</option>
+    <option value="casado">Casada</option>
+    <option value="viudo">Viuda</option>
+    <option value="divorciado">Divorciada</option>
+    </select>
+    <br>
+    <button (click)="enviarDatos()" class="btn btn-success">Enviar</button>
+    <button (click)="resetForm()" class="btn btn-danger">Reset</button>
+    
+    
+</form>

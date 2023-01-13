@@ -1,0 +1,33 @@
+.form {
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px 0px grey;
+    margin-top: 5rem;
+    width: 50%;
+    border-radius: 0.5rem;
+    }
+    
+    
+    button{
+        margin-bottom:1rem ;
+        margin-right: 10px;
+        border: 1px solid rgb(89, 133, 93);
+        
+    }
+    
+    .transparent-message {
+        background-color: rgba(0, 255, 0, 0.3); 
+        padding: 10px; 
+        border-radius: 0.5rem;
+      }
+    
+      h1{
+        font-weight: bold;
+        text-align: center;
+        margin-top: 1rem;
+        text-size-adjust: 2rem;
+        color: blue;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        
+      }
+    
+     
